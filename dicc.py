@@ -24,7 +24,3 @@ if selected_competencia:
         st.subheader(f'Nivel {nivel}')
         for _, row in subset.iterrows():
             st.text(row['Conducta esperada'])
-
-# Correr la aplicación
-if __name__ == '__main__':
-    st.run()
